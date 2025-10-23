@@ -16,7 +16,8 @@ jobs:
 
       - name: Checking out code
         run: |
-          cd /home/ashik/selise/Projects/demoapp/
+          #cd /home/ashik/selise/Projects/demoapp/
+          cd /home/github/demo-app
           git stash
           git fetch
           git pull origin main
